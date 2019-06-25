@@ -3,3 +3,4 @@ input/test.csv
 input/train.csv
 .idea/misc.xml
 .idea/workspace.xml
+.idea/*
