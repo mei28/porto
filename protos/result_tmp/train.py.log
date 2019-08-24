@@ -16,3 +16,190 @@
 2019-06-25 13:16:23,497 __main__ 40 [INFO][<module>] train end 
 2019-06-25 13:16:27,317 __main__ 45 [INFO][<module>] test load end (892816, 58) 
 2019-06-25 13:16:29,946 __main__ 53 [INFO][<module>] end 
+2019-06-25 14:06:37,851 __main__ 27 [INFO][<module>] start 
+2019-06-25 14:06:40,399 __main__ 35 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-06-25 14:06:40,399 __main__ 37 [INFO][<module>] data preparation end (595212, 58)  
+2019-06-25 14:09:11,507 __main__ 27 [INFO][<module>] start 
+2019-06-25 14:09:14,205 __main__ 35 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-06-25 14:09:14,205 __main__ 37 [INFO][<module>] data preparation end (595212, 58)  
+2019-06-25 14:09:19,849 __main__ 53 [INFO][<module>] logloss: 0.17281999369726148, auc: 0.4900684257888541 
+2019-06-25 14:09:25,458 __main__ 53 [INFO][<module>] logloss: 0.17301349305336236, auc: 0.48772095249157155 
+2019-06-25 14:09:31,066 __main__ 53 [INFO][<module>] logloss: 0.17248550014718161, auc: 0.4945467240854913 
+2019-06-25 14:09:36,671 __main__ 53 [INFO][<module>] logloss: 0.17299489763477963, auc: 0.48926354020015783 
+2019-06-25 14:09:42,229 __main__ 53 [INFO][<module>] logloss: 0.17277468514839325, auc: 0.48998356478662014 
+2019-06-25 14:09:46,520 __main__ 58 [INFO][<module>] train end 
+2019-06-25 14:09:50,677 __main__ 63 [INFO][<module>] test load end (892816, 58) 
+2019-06-25 14:09:53,648 __main__ 71 [INFO][<module>] end 
+2019-06-25 14:14:02,048 __main__ 27 [INFO][<module>] start 
+2019-06-25 14:14:04,517 __main__ 35 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-06-25 14:14:04,517 __main__ 37 [INFO][<module>] data preparation end (595212, 58)  
+2019-06-25 14:14:10,342 __main__ 57 [DEBUG][<module>]       logloss: 0.17281999369726148, auc: 0.4900684257888541 
+2019-06-25 14:14:16,152 __main__ 57 [DEBUG][<module>]       logloss: 0.17301349305336236, auc: 0.48772095249157155 
+2019-06-25 14:14:21,962 __main__ 57 [DEBUG][<module>]       logloss: 0.17248550014718161, auc: 0.4945467240854913 
+2019-06-25 14:14:27,696 __main__ 57 [DEBUG][<module>]       logloss: 0.17299489763477963, auc: 0.48926354020015783 
+2019-06-25 14:14:33,379 __main__ 57 [DEBUG][<module>]       logloss: 0.17277468514839325, auc: 0.48998356478662014 
+2019-06-25 14:14:33,379 __main__ 59 [INFO][<module>] logloss: 0.17281771393619566, auc: 0.490316641470539 
+2019-06-25 14:14:37,617 __main__ 63 [INFO][<module>] train end 
+2019-06-25 14:14:41,690 __main__ 68 [INFO][<module>] test load end (892816, 58) 
+2019-06-25 14:14:44,531 __main__ 76 [INFO][<module>] end 
+2019-08-24 16:21:48,378 __main__ 24 [INFO][<module>] start 
+2019-08-24 16:21:50,617 __main__ 31 [DEBUG][<module>] train coumns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 16:21:50,617 __main__ 33 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 16:21:59,567 __main__ 42 [INFO][<module>] test data load end. (892816, 58) 
+2019-08-24 16:24:40,444 __main__ 24 [INFO][<module>] start 
+2019-08-24 16:24:42,685 __main__ 31 [DEBUG][<module>] train coumns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 16:24:42,685 __main__ 33 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 16:24:47,843 __main__ 37 [INFO][<module>] train end 
+2019-08-24 16:24:51,698 __main__ 42 [INFO][<module>] test data load end. (892816, 58) 
+2019-08-24 16:47:38,001 __main__ 25 [INFO][<module>] start 
+2019-08-24 16:47:40,698 __main__ 32 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 16:47:40,699 __main__ 34 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 16:54:26,197 __main__ 26 [INFO][<module>] start 
+2019-08-24 16:54:28,691 __main__ 33 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 16:54:28,692 __main__ 35 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 16:56:31,813 __main__ 26 [INFO][<module>] start 
+2019-08-24 16:56:34,237 __main__ 33 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 16:56:34,237 __main__ 35 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 17:00:36,052 __main__ 26 [INFO][<module>] start 
+2019-08-24 17:00:38,458 __main__ 33 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 17:00:38,458 __main__ 35 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 17:00:42,874 __main__ 53 [INFO][<module>] logloss:0.17281705678797757, auc:0.49006059176261163 
+2019-08-24 17:00:47,178 __main__ 53 [INFO][<module>] logloss:0.17301649647006406, auc:0.48771699830751275 
+2019-08-24 17:00:51,500 __main__ 53 [INFO][<module>] logloss:0.17249650715937506, auc:0.4945375117206999 
+2019-08-24 17:00:55,922 __main__ 53 [INFO][<module>] logloss:0.17297985976547542, auc:0.48923643732730293 
+2019-08-24 17:01:00,431 __main__ 53 [INFO][<module>] logloss:0.1727852962422866, auc:0.48998649093975566 
+2019-08-24 17:01:00,431 __main__ 55 [INFO][<module>] train end 
+2019-08-24 17:01:04,675 __main__ 60 [INFO][<module>] test data load end. (892816, 58) 
+2019-08-24 17:01:07,547 __main__ 67 [INFO][<module>] end 
+2019-08-24 17:06:57,318 __main__ 26 [INFO][<module>] start 
+2019-08-24 17:06:59,650 __main__ 33 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 17:06:59,650 __main__ 35 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 17:07:04,169 __main__ 55 [DEBUG][<module>] logloss:0.17281705678797757, auc:0.49006059176261163 
+2019-08-24 17:07:08,612 __main__ 55 [DEBUG][<module>] logloss:0.17301649647006406, auc:0.48771699830751275 
+2019-08-24 17:07:13,161 __main__ 55 [DEBUG][<module>] logloss:0.17249650715937506, auc:0.4945375117206999 
+2019-08-24 17:07:17,592 __main__ 55 [DEBUG][<module>] logloss:0.17297985976547542, auc:0.48923643732730293 
+2019-08-24 17:07:22,119 __main__ 55 [DEBUG][<module>] logloss:0.1727852962422866, auc:0.48998649093975566 
+2019-08-24 17:07:22,120 __main__ 59 [INFO][<module>] logloss:0.17281904328503575, auc:0.4903076060115765 
+2019-08-24 17:07:22,120 __main__ 60 [INFO][<module>] train end 
+2019-08-24 17:07:26,128 __main__ 65 [INFO][<module>] test data load end. (892816, 58) 
+2019-08-24 17:07:29,082 __main__ 72 [INFO][<module>] end 
