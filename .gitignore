@@ -1,6 +1,4 @@
-input/sample_submission.csv
-input/test.csv
-input/train.csv
-.idea/misc.xml
-.idea/workspace.xml
-.idea/*
+input/
+.idea/
+*~
+*csv
