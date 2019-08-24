@@ -69,18 +69,23 @@ if __name__ == '__main__':
             list_auc.append(sc_auc)
 
         sc_auc = np.mean(list_auc)
-        sc_logloss = -np.mean(list_logloss)
-        logger.info('logloss:{}, auc:{}'.format(np.mean(list_logloss), np.mean(list_auc)))
+        sc_logloss = np.mean(list_logloss)
+
 
         if min_score > sc_auc:
             min_score = sc_auc
             min_params = params
 
-        logger.info('minimum auc: {}'.format(min_score))
-        logger.info('minimum params: {}'.format(min_params))
+        logger.info('logloss:{}, auc:{}'.format(np.mean(list_logloss), np.mean(list_auc)))
+        logger.info('current min score: {}, params{}'.format(min_score, min_params))
+
+    logger.info('minimum auc: {}'.format(min_score))
+    logger.info('minimum params: {}'.format(min_params))
 
     logger.info('train end')
 
+    clf = LogisticRegression(**min_params)
+    clf.fit(x_train,y_train)
     df = load_test_data()
 
     x_test = df[use_cols]
