@@ -203,3 +203,186 @@
 2019-08-24 17:07:22,120 __main__ 60 [INFO][<module>] train end 
 2019-08-24 17:07:26,128 __main__ 65 [INFO][<module>] test data load end. (892816, 58) 
 2019-08-24 17:07:29,082 __main__ 72 [INFO][<module>] end 
+2019-08-24 17:23:33,655 __main__ 26 [INFO][<module>] start 
+2019-08-24 17:23:35,986 __main__ 33 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 17:23:35,986 __main__ 35 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 17:23:35,986 __main__ 48 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-08-24 17:23:40,522 __main__ 66 [DEBUG][<module>] logloss:0.17281684295711955, auc:-0.4900605676517332 
+2019-08-24 17:23:45,022 __main__ 66 [DEBUG][<module>] logloss:0.17301705029710854, auc:-0.4877170344738304 
+2019-08-24 17:23:49,480 __main__ 66 [DEBUG][<module>] logloss:0.1724968266019535, auc:-0.49453752779461874 
+2019-08-24 17:23:53,965 __main__ 66 [DEBUG][<module>] logloss:0.17297961892914906, auc:-0.48923642326250133 
+2019-08-24 17:23:58,512 __main__ 66 [DEBUG][<module>] logloss:0.1727851066654183, auc:-0.48998651103696134 
+2019-08-24 17:23:58,513 __main__ 72 [INFO][<module>] logloss:0.1728190890901498, auc:-0.490307612843929 
+2019-08-24 17:23:58,513 __main__ 78 [INFO][<module>] minimum auc: -0.490307612843929 
+2019-08-24 17:23:58,513 __main__ 79 [INFO][<module>] minimum params: {'C': 0.1, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-08-24 17:23:58,513 __main__ 48 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:24:42,889 __main__ 66 [DEBUG][<module>] logloss:0.15292267386852024, auc:-0.6249165643052719 
+2019-08-24 17:24:59,226 __main__ 66 [DEBUG][<module>] logloss:0.15283047558243978, auc:-0.6270652414008471 
+2019-08-24 17:26:11,924 __main__ 27 [INFO][<module>] start 
+2019-08-24 17:26:14,354 __main__ 34 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 17:26:14,355 __main__ 36 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 17:26:41,232 __main__ 27 [INFO][<module>] start 
+2019-08-24 17:26:43,316 __main__ 34 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 17:26:43,316 __main__ 36 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 17:30:43,423 __main__ 27 [INFO][<module>] start 
+2019-08-24 17:30:45,912 __main__ 34 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-08-24 17:30:45,912 __main__ 36 [INFO][<module>] data preparation end (595212, 58) 
+2019-08-24 17:30:45,913 __main__ 49 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-08-24 17:30:50,542 __main__ 67 [DEBUG][<module>] logloss:0.17281684295711955, auc:-0.4900605676517332 
+2019-08-24 17:30:54,888 __main__ 67 [DEBUG][<module>] logloss:0.17301705029710854, auc:-0.4877170344738304 
+2019-08-24 17:30:59,202 __main__ 67 [DEBUG][<module>] logloss:0.1724968266019535, auc:-0.49453752779461874 
+2019-08-24 17:31:03,482 __main__ 67 [DEBUG][<module>] logloss:0.17297961892914906, auc:-0.48923642326250133 
+2019-08-24 17:31:07,767 __main__ 67 [DEBUG][<module>] logloss:0.1727851066654183, auc:-0.48998651103696134 
+2019-08-24 17:31:07,767 __main__ 73 [INFO][<module>] logloss:0.1728190890901498, auc:-0.490307612843929 
+2019-08-24 17:31:07,767 __main__ 79 [INFO][<module>] minimum auc: -0.490307612843929 
+2019-08-24 17:31:07,768 __main__ 80 [INFO][<module>] minimum params: {'C': 0.1, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-08-24 17:31:07,768 __main__ 49 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:31:48,983 __main__ 67 [DEBUG][<module>] logloss:0.15292267386852024, auc:-0.6249165643052719 
+2019-08-24 17:32:04,361 __main__ 67 [DEBUG][<module>] logloss:0.15283047558243978, auc:-0.6270652414008471 
+2019-08-24 17:32:19,757 __main__ 67 [DEBUG][<module>] logloss:0.15349151456725194, auc:-0.6159606930475897 
+2019-08-24 17:32:23,416 __main__ 67 [DEBUG][<module>] logloss:0.15347773008788035, auc:-0.6149998694886867 
+2019-08-24 17:32:33,364 __main__ 67 [DEBUG][<module>] logloss:0.15393186117473343, auc:-0.6076959768855125 
+2019-08-24 17:32:33,365 __main__ 73 [INFO][<module>] logloss:0.15333085105616515, auc:-0.6181276690255816 
+2019-08-24 17:32:33,365 __main__ 79 [INFO][<module>] minimum auc: -0.6181276690255816 
+2019-08-24 17:32:33,365 __main__ 80 [INFO][<module>] minimum params: {'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:32:33,365 __main__ 49 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': False, 'penalty': 'l2', 'random_state': 0} 
+2019-08-24 17:32:37,844 __main__ 67 [DEBUG][<module>] logloss:0.17283378349213885, auc:-0.490061100100298 
+2019-08-24 17:32:42,244 __main__ 67 [DEBUG][<module>] logloss:0.17303412193247614, auc:-0.48771731174893207 
+2019-08-24 17:32:46,616 __main__ 67 [DEBUG][<module>] logloss:0.1725135819628118, auc:-0.4945402704070376 
+2019-08-24 17:32:50,994 __main__ 67 [DEBUG][<module>] logloss:0.1729962548455688, auc:-0.48923917594511757 
+2019-08-24 17:32:55,387 __main__ 67 [DEBUG][<module>] logloss:0.1728022048720529, auc:-0.4899861231608932 
+2019-08-24 17:32:55,387 __main__ 73 [INFO][<module>] logloss:0.1728359894210097, auc:-0.4903087962724557 
+2019-08-24 17:32:55,387 __main__ 79 [INFO][<module>] minimum auc: -0.6181276690255816 
+2019-08-24 17:32:55,387 __main__ 80 [INFO][<module>] minimum params: {'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:32:55,388 __main__ 49 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': False, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:33:00,959 __main__ 67 [DEBUG][<module>] logloss:0.1533195893407728, auc:-0.6161213458396566 
+2019-08-24 17:33:06,463 __main__ 67 [DEBUG][<module>] logloss:0.1532079487354555, auc:-0.6197733020468431 
+2019-08-24 17:33:15,793 __main__ 67 [DEBUG][<module>] logloss:0.15363186649584396, auc:-0.6133408632678193 
+2019-08-24 17:34:07,115 __main__ 67 [DEBUG][<module>] logloss:0.15293201603612097, auc:-0.6260541546261834 
+2019-08-24 17:34:09,960 __main__ 67 [DEBUG][<module>] logloss:0.1543720383040137, auc:-0.6001264226776676 
+2019-08-24 17:34:09,960 __main__ 73 [INFO][<module>] logloss:0.15349269178244138, auc:-0.615083217691634 
+2019-08-24 17:34:09,961 __main__ 79 [INFO][<module>] minimum auc: -0.6181276690255816 
+2019-08-24 17:34:09,961 __main__ 80 [INFO][<module>] minimum params: {'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:34:09,961 __main__ 49 [INFO][<module>] params:{'C': 1, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-08-24 17:34:14,422 __main__ 67 [DEBUG][<module>] logloss:0.17281705678797757, auc:-0.49006059176261163 
+2019-08-24 17:34:18,773 __main__ 67 [DEBUG][<module>] logloss:0.17301649647006406, auc:-0.48771699830751275 
+2019-08-24 17:34:23,136 __main__ 67 [DEBUG][<module>] logloss:0.17249650715937506, auc:-0.4945375117206999 
+2019-08-24 17:34:27,466 __main__ 67 [DEBUG][<module>] logloss:0.17297985976547542, auc:-0.48923643732730293 
+2019-08-24 17:34:31,847 __main__ 67 [DEBUG][<module>] logloss:0.1727852962422866, auc:-0.48998649093975566 
+2019-08-24 17:34:31,848 __main__ 73 [INFO][<module>] logloss:0.17281904328503575, auc:-0.4903076060115765 
+2019-08-24 17:34:31,848 __main__ 79 [INFO][<module>] minimum auc: -0.6181276690255816 
+2019-08-24 17:34:31,848 __main__ 80 [INFO][<module>] minimum params: {'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:34:31,848 __main__ 49 [INFO][<module>] params:{'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:34:52,314 __main__ 67 [DEBUG][<module>] logloss:0.15290227663063102, auc:-0.6252104417559778 
+2019-08-24 17:35:05,359 __main__ 67 [DEBUG][<module>] logloss:0.15282002651570298, auc:-0.6272604912941886 
+2019-08-24 17:35:33,929 __main__ 67 [DEBUG][<module>] logloss:0.15347164221529885, auc:-0.6161651311948441 
+2019-08-24 17:35:47,933 __main__ 67 [DEBUG][<module>] logloss:0.152948525102037, auc:-0.6256069662657359 
+2019-08-24 17:36:01,384 __main__ 67 [DEBUG][<module>] logloss:0.15389085520167323, auc:-0.6085738429233842 
+2019-08-24 17:36:01,384 __main__ 73 [INFO][<module>] logloss:0.1532066651330686, auc:-0.6205633746868261 
+2019-08-24 17:36:01,384 __main__ 79 [INFO][<module>] minimum auc: -0.6205633746868261 
+2019-08-24 17:36:01,384 __main__ 80 [INFO][<module>] minimum params: {'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:36:01,384 __main__ 49 [INFO][<module>] params:{'C': 1, 'fit_intercept': False, 'penalty': 'l2', 'random_state': 0} 
+2019-08-24 17:36:05,954 __main__ 67 [DEBUG][<module>] logloss:0.17283367975915648, auc:-0.4900611382758555 
+2019-08-24 17:36:10,494 __main__ 67 [DEBUG][<module>] logloss:0.17303395585442144, auc:-0.48771725348097594 
+2019-08-24 17:36:15,089 __main__ 67 [DEBUG][<module>] logloss:0.17251293998430173, auc:-0.49454020812060173 
+2019-08-24 17:36:19,707 __main__ 67 [DEBUG][<module>] logloss:0.17299686336411163, auc:-0.48923913977848466 
+2019-08-24 17:36:24,060 __main__ 67 [DEBUG][<module>] logloss:0.1728022262711351, auc:-0.48998615330670153 
+2019-08-24 17:36:24,060 __main__ 73 [INFO][<module>] logloss:0.17283593304662528, auc:-0.49030877859252386 
+2019-08-24 17:36:24,061 __main__ 79 [INFO][<module>] minimum auc: -0.6205633746868261 
+2019-08-24 17:36:24,061 __main__ 80 [INFO][<module>] minimum params: {'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:36:24,061 __main__ 49 [INFO][<module>] params:{'C': 1, 'fit_intercept': False, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:36:44,906 __main__ 67 [DEBUG][<module>] logloss:0.1529372678147881, auc:-0.6244233923613715 
+2019-08-24 17:37:00,160 __main__ 67 [DEBUG][<module>] logloss:0.1528739649865366, auc:-0.6262657648576617 
+2019-08-24 17:37:12,485 __main__ 67 [DEBUG][<module>] logloss:0.15355426375285394, auc:-0.6147619644688594 
+2019-08-24 17:37:15,355 __main__ 67 [DEBUG][<module>] logloss:0.15376634003352976, auc:-0.6093719295093758 
+2019-08-24 17:37:44,651 __main__ 67 [DEBUG][<module>] logloss:0.1538577462578579, auc:-0.6091594473585192 
+2019-08-24 17:37:44,652 __main__ 73 [INFO][<module>] logloss:0.15339791656911325, auc:-0.6167964997111575 
+2019-08-24 17:37:44,652 __main__ 79 [INFO][<module>] minimum auc: -0.6205633746868261 
+2019-08-24 17:37:44,652 __main__ 80 [INFO][<module>] minimum params: {'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:37:44,652 __main__ 49 [INFO][<module>] params:{'C': 10, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-08-24 17:37:49,034 __main__ 67 [DEBUG][<module>] logloss:0.1728171670369602, auc:-0.4900606359658887 
+2019-08-24 17:37:53,344 __main__ 67 [DEBUG][<module>] logloss:0.17301714309062996, auc:-0.487717056575469 
+2019-08-24 17:37:57,627 __main__ 67 [DEBUG][<module>] logloss:0.1724969193508036, auc:-0.4945374614897031 
+2019-08-24 17:38:01,918 __main__ 67 [DEBUG][<module>] logloss:0.1729797546715297, auc:-0.4892364815309654 
+2019-08-24 17:38:06,187 __main__ 67 [DEBUG][<module>] logloss:0.17278526719670267, auc:-0.48998650299807905 
+2019-08-24 17:38:06,187 __main__ 73 [INFO][<module>] logloss:0.17281925026932524, auc:-0.4903076277120211 
+2019-08-24 17:38:06,187 __main__ 79 [INFO][<module>] minimum auc: -0.6205633746868261 
+2019-08-24 17:38:06,187 __main__ 80 [INFO][<module>] minimum params: {'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:38:06,187 __main__ 49 [INFO][<module>] params:{'C': 10, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:38:24,919 __main__ 67 [DEBUG][<module>] logloss:0.1529029675040156, auc:-0.6252003714457631 
+2019-08-24 17:38:37,269 __main__ 67 [DEBUG][<module>] logloss:0.15281781258318586, auc:-0.6273150642582236 
+2019-08-24 17:39:01,950 __main__ 67 [DEBUG][<module>] logloss:0.15347304619317978, auc:-0.6161265336969939 
+2019-08-24 17:39:20,637 __main__ 67 [DEBUG][<module>] logloss:0.15285358405329755, auc:-0.6274110382858228 
+2019-08-24 17:39:24,104 __main__ 67 [DEBUG][<module>] logloss:0.15414179721391202, auc:-0.6039404140845124 
+2019-08-24 17:39:24,104 __main__ 73 [INFO][<module>] logloss:0.1532378415095182, auc:-0.6199986843542632 
+2019-08-24 17:39:24,104 __main__ 79 [INFO][<module>] minimum auc: -0.6205633746868261 
+2019-08-24 17:39:24,104 __main__ 80 [INFO][<module>] minimum params: {'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:39:24,105 __main__ 49 [INFO][<module>] params:{'C': 10, 'fit_intercept': False, 'penalty': 'l2', 'random_state': 0} 
+2019-08-24 17:39:28,360 __main__ 67 [DEBUG][<module>] logloss:0.17283403197750916, auc:-0.49006108804485876 
+2019-08-24 17:39:32,549 __main__ 67 [DEBUG][<module>] logloss:0.1730340635549364, auc:-0.48771726352717526 
+2019-08-24 17:39:36,751 __main__ 67 [DEBUG][<module>] logloss:0.17251354507356811, auc:-0.49454029049943626 
+2019-08-24 17:39:40,897 __main__ 67 [DEBUG][<module>] logloss:0.17299669477228335, auc:-0.48923918197288974 
+2019-08-24 17:39:45,046 __main__ 67 [DEBUG][<module>] logloss:0.17280219723850285, auc:-0.4899861713941866 
+2019-08-24 17:39:45,046 __main__ 73 [INFO][<module>] logloss:0.17283610652335996, auc:-0.49030879908770925 
+2019-08-24 17:39:45,046 __main__ 79 [INFO][<module>] minimum auc: -0.6205633746868261 
+2019-08-24 17:39:45,046 __main__ 80 [INFO][<module>] minimum params: {'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:39:45,046 __main__ 49 [INFO][<module>] params:{'C': 10, 'fit_intercept': False, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:39:48,048 __main__ 67 [DEBUG][<module>] logloss:0.15353898014240308, auc:-0.6116682393924753 
+2019-08-24 17:40:04,593 __main__ 67 [DEBUG][<module>] logloss:0.15285353339292046, auc:-0.6266425495730108 
+2019-08-24 17:40:21,229 __main__ 67 [DEBUG][<module>] logloss:0.15351084906011087, auc:-0.6155653851499043 
+2019-08-24 17:40:24,188 __main__ 67 [DEBUG][<module>] logloss:0.15375858187092126, auc:-0.6096118006836687 
+2019-08-24 17:40:27,045 __main__ 67 [DEBUG][<module>] logloss:0.15437228002899148, auc:-0.6000959754111815 
+2019-08-24 17:40:27,045 __main__ 73 [INFO][<module>] logloss:0.15360684489906945, auc:-0.6127167900420482 
+2019-08-24 17:40:27,045 __main__ 79 [INFO][<module>] minimum auc: -0.6205633746868261 
+2019-08-24 17:40:27,045 __main__ 80 [INFO][<module>] minimum params: {'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-08-24 17:40:27,046 __main__ 82 [INFO][<module>] train end 
+2019-08-24 17:40:30,855 __main__ 88 [INFO][<module>] test data load end. (892816, 58) 
+2019-08-24 17:40:33,508 __main__ 95 [INFO][<module>] end 
