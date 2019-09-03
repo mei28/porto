@@ -2,3 +2,5 @@ input/
 .idea/
 *~
 *csv
+result_tmp/
+__py*

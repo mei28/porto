@@ -12,6 +12,16 @@ logger = getLogger(__name__)
 def read_csv(path):
     logger.debug('enter')
     df = pd.read_csv(path)
+
+    for col in df.columns.values:
+        if 'cat' in col:
+            logger.info('categorical: {}'.format(col))
+            tmp = pd.get_dummies(df[col],col)
+            for col2 in tmp.columns.values:
+                df[col2] = tmp[col2].values
+            # import pdb
+            # pdb.set_trace()
+            df.drop(col,axis=1,inplace=True)
     logger.debug('exit')
     return df
 
