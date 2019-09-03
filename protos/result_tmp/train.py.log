@@ -633,3 +633,157 @@
 2019-08-24 18:17:29,201 __main__ 85 [INFO][<module>] train end 
 2019-08-24 18:17:49,348 __main__ 93 [INFO][<module>] test data load end. (892816, 58) 
 2019-08-24 18:17:52,202 __main__ 100 [INFO][<module>] end 
+2019-09-03 12:58:58,959 __main__ 35 [INFO][<module>] start 
+2019-09-03 13:06:40,837 __main__ 36 [INFO][<module>] start 
+2019-09-03 13:06:43,361 __main__ 43 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-09-03 13:06:43,361 __main__ 45 [INFO][<module>] data preparation end (595212, 58) 
+2019-09-03 13:06:43,363 __main__ 58 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-09-03 13:06:48,148 __main__ 78 [DEBUG][<module>] logloss:0.17281684295711955, auc:-0.4900605676517332, gini:0.01987886469653355 
+2019-09-03 13:06:52,835 __main__ 78 [DEBUG][<module>] logloss:0.17301705029710854, auc:-0.4877170344738304, gini:0.024565931052339174 
+2019-09-03 13:06:57,504 __main__ 78 [DEBUG][<module>] logloss:0.1724968266019535, auc:-0.49453752779461874, gini:0.010924944410762527 
+2019-09-03 13:07:02,290 __main__ 78 [DEBUG][<module>] logloss:0.17297961892914906, auc:-0.48923642326250133, gini:0.02152715347499734 
+2019-09-03 13:07:06,975 __main__ 78 [DEBUG][<module>] logloss:0.1727851066654183, auc:-0.48998651103696134, gini:0.020026977926077327 
+2019-09-03 13:08:23,559 __main__ 36 [INFO][<module>] start 
+2019-09-03 13:08:25,968 __main__ 43 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-09-03 13:08:25,968 __main__ 45 [INFO][<module>] data preparation end (595212, 58) 
+2019-09-03 13:08:25,970 __main__ 58 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-09-03 13:08:30,659 __main__ 78 [DEBUG][<module>] logloss:0.17281684295711955, auc:-0.4900605676517332, gini:0.01987886469653355 
+2019-09-03 13:08:35,295 __main__ 78 [DEBUG][<module>] logloss:0.17301705029710854, auc:-0.4877170344738304, gini:0.024565931052339174 
+2019-09-03 13:08:39,939 __main__ 78 [DEBUG][<module>] logloss:0.1724968266019535, auc:-0.49453752779461874, gini:0.010924944410762527 
+2019-09-03 13:08:44,568 __main__ 78 [DEBUG][<module>] logloss:0.17297961892914906, auc:-0.48923642326250133, gini:0.02152715347499734 
+2019-09-03 13:08:49,204 __main__ 78 [DEBUG][<module>] logloss:0.1727851066654183, auc:-0.48998651103696134, gini:0.020026977926077327 
+2019-09-03 13:08:49,205 __main__ 94 [INFO][<module>] logloss:0.1728190890901498, auc:-0.490307612843929, gini:0.019384774312141983 
+2019-09-03 13:08:49,205 __main__ 95 [INFO][<module>] current min score: 0.019384774312141983, params{'C': 0.1, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-09-03 13:08:49,205 __main__ 58 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:09:33,114 __main__ 78 [DEBUG][<module>] logloss:0.15292267386852024, auc:-0.6249165643052719, gini:-0.24983312861054374 
+2019-09-03 13:09:49,238 __main__ 78 [DEBUG][<module>] logloss:0.15283047558243978, auc:-0.6270652414008471, gini:-0.25413048280169415 
+2019-09-03 13:10:05,393 __main__ 78 [DEBUG][<module>] logloss:0.15349151456725194, auc:-0.6159606930475897, gini:-0.23192138609517943 
+2019-09-03 13:10:09,241 __main__ 78 [DEBUG][<module>] logloss:0.15347773008788035, auc:-0.6149998694886867, gini:-0.22999973897737336 
+2019-09-03 13:10:19,607 __main__ 78 [DEBUG][<module>] logloss:0.15393186117473343, auc:-0.6076959768855125, gini:-0.21539195377102494 
+2019-09-03 13:10:19,608 __main__ 94 [INFO][<module>] logloss:0.15333085105616515, auc:-0.6181276690255816, gini:-0.2362553380511631 
+2019-09-03 13:10:19,608 __main__ 95 [INFO][<module>] current min score: -0.2362553380511631, params{'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:10:19,608 __main__ 58 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': False, 'penalty': 'l2', 'random_state': 0} 
+2019-09-03 13:10:24,243 __main__ 78 [DEBUG][<module>] logloss:0.17283378349213885, auc:-0.490061100100298, gini:0.01987779979940396 
+2019-09-03 13:10:28,786 __main__ 78 [DEBUG][<module>] logloss:0.17303412193247614, auc:-0.48771731174893207, gini:0.02456537650213586 
+2019-09-03 13:10:33,331 __main__ 78 [DEBUG][<module>] logloss:0.1725135819628118, auc:-0.4945402704070376, gini:0.010919459185924851 
+2019-09-03 13:10:38,409 __main__ 78 [DEBUG][<module>] logloss:0.1729962548455688, auc:-0.48923917594511757, gini:0.021521648109764868 
+2019-09-03 13:10:43,169 __main__ 78 [DEBUG][<module>] logloss:0.1728022048720529, auc:-0.4899861231608932, gini:0.020027753678213633 
+2019-09-03 13:10:43,170 __main__ 94 [INFO][<module>] logloss:0.1728359894210097, auc:-0.4903087962724557, gini:0.019382407455088634 
+2019-09-03 13:10:43,170 __main__ 95 [INFO][<module>] current min score: -0.2362553380511631, params{'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:10:43,170 __main__ 58 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': False, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:10:48,978 __main__ 78 [DEBUG][<module>] logloss:0.1533195893407728, auc:-0.6161213458396566, gini:-0.23224269167931322 
+2019-09-03 13:10:54,724 __main__ 78 [DEBUG][<module>] logloss:0.1532079487354555, auc:-0.6197733020468431, gini:-0.23954660409368622 
+2019-09-03 13:11:04,493 __main__ 78 [DEBUG][<module>] logloss:0.15363186649584396, auc:-0.6133408632678193, gini:-0.22668172653563867 
+2019-09-03 13:11:59,088 __main__ 78 [DEBUG][<module>] logloss:0.15293201603612097, auc:-0.6260541546261834, gini:-0.2521083092523668 
+2019-09-03 13:12:02,152 __main__ 78 [DEBUG][<module>] logloss:0.1543720383040137, auc:-0.6001264226776676, gini:-0.20025284535533516 
+2019-09-03 13:12:02,153 __main__ 94 [INFO][<module>] logloss:0.15349269178244138, auc:-0.615083217691634, gini:-0.23016643538326803 
+2019-09-03 13:12:02,153 __main__ 95 [INFO][<module>] current min score: -0.2362553380511631, params{'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:12:02,153 __main__ 58 [INFO][<module>] params:{'C': 1, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-09-03 13:12:06,856 __main__ 78 [DEBUG][<module>] logloss:0.17281705678797757, auc:-0.49006059176261163, gini:0.01987881647477674 
+2019-09-03 13:12:11,464 __main__ 78 [DEBUG][<module>] logloss:0.17301649647006406, auc:-0.48771699830751275, gini:0.0245660033849745 
+2019-09-03 13:12:16,080 __main__ 78 [DEBUG][<module>] logloss:0.17249650715937506, auc:-0.4945375117206999, gini:0.010924976558600252 
+2019-09-03 13:12:20,676 __main__ 78 [DEBUG][<module>] logloss:0.17297985976547542, auc:-0.48923643732730293, gini:0.021527125345394138 
+2019-09-03 13:12:25,288 __main__ 78 [DEBUG][<module>] logloss:0.1727852962422866, auc:-0.48998649093975566, gini:0.020027018120488682 
+2019-09-03 13:12:25,288 __main__ 94 [INFO][<module>] logloss:0.17281904328503575, auc:-0.4903076060115765, gini:0.01938478797684686 
+2019-09-03 13:12:25,289 __main__ 95 [INFO][<module>] current min score: -0.2362553380511631, params{'C': 0.1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:12:25,289 __main__ 58 [INFO][<module>] params:{'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:12:46,906 __main__ 78 [DEBUG][<module>] logloss:0.15290227663063102, auc:-0.6252104417559778, gini:-0.2504208835119557 
+2019-09-03 13:13:00,301 __main__ 78 [DEBUG][<module>] logloss:0.15282002651570298, auc:-0.6272604912941886, gini:-0.2545209825883772 
+2019-09-03 13:13:29,718 __main__ 78 [DEBUG][<module>] logloss:0.15347164221529885, auc:-0.6161651311948441, gini:-0.23233026238968812 
+2019-09-03 13:13:44,105 __main__ 78 [DEBUG][<module>] logloss:0.152948525102037, auc:-0.6256069662657359, gini:-0.25121393253147173 
+2019-09-03 13:13:57,427 __main__ 78 [DEBUG][<module>] logloss:0.15389085520167323, auc:-0.6085738429233842, gini:-0.21714768584676847 
+2019-09-03 13:13:57,428 __main__ 94 [INFO][<module>] logloss:0.1532066651330686, auc:-0.6205633746868261, gini:-0.24112674937365225 
+2019-09-03 13:13:57,428 __main__ 95 [INFO][<module>] current min score: -0.24112674937365225, params{'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:13:57,428 __main__ 58 [INFO][<module>] params:{'C': 1, 'fit_intercept': False, 'penalty': 'l2', 'random_state': 0} 
+2019-09-03 13:14:02,075 __main__ 78 [DEBUG][<module>] logloss:0.17283367975915648, auc:-0.4900611382758555, gini:0.019877723448288975 
+2019-09-03 13:14:06,582 __main__ 78 [DEBUG][<module>] logloss:0.17303395585442144, auc:-0.48771725348097594, gini:0.024565493038048114 
+2019-09-03 13:14:11,103 __main__ 78 [DEBUG][<module>] logloss:0.17251293998430173, auc:-0.49454020812060173, gini:0.010919583758796536 
+2019-09-03 13:14:15,588 __main__ 78 [DEBUG][<module>] logloss:0.17299686336411163, auc:-0.48923913977848466, gini:0.02152172044303069 
+2019-09-03 13:14:20,091 __main__ 78 [DEBUG][<module>] logloss:0.1728022262711351, auc:-0.48998615330670153, gini:0.020027693386596934 
+2019-09-03 13:14:20,092 __main__ 94 [INFO][<module>] logloss:0.17283593304662528, auc:-0.49030877859252386, gini:0.01938244281495225 
+2019-09-03 13:14:20,092 __main__ 95 [INFO][<module>] current min score: -0.24112674937365225, params{'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:14:20,092 __main__ 58 [INFO][<module>] params:{'C': 1, 'fit_intercept': False, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:14:42,405 __main__ 78 [DEBUG][<module>] logloss:0.1529372678147881, auc:-0.6244233923613715, gini:-0.2488467847227429 
+2019-09-03 13:14:58,826 __main__ 78 [DEBUG][<module>] logloss:0.1528739649865366, auc:-0.6262657648576617, gini:-0.25253152971532344 
+2019-09-03 13:15:12,078 __main__ 78 [DEBUG][<module>] logloss:0.15355426375285394, auc:-0.6147619644688594, gini:-0.2295239289377189 
+2019-09-03 13:15:15,126 __main__ 78 [DEBUG][<module>] logloss:0.15376634003352976, auc:-0.6093719295093758, gini:-0.2187438590187516 
+2019-09-03 13:15:46,355 __main__ 78 [DEBUG][<module>] logloss:0.1538577462578579, auc:-0.6091594473585192, gini:-0.21831889471703847 
+2019-09-03 13:15:46,356 __main__ 94 [INFO][<module>] logloss:0.15339791656911325, auc:-0.6167964997111575, gini:-0.23359299942231507 
+2019-09-03 13:15:46,356 __main__ 95 [INFO][<module>] current min score: -0.24112674937365225, params{'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:15:46,356 __main__ 58 [INFO][<module>] params:{'C': 10, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
+2019-09-03 13:15:51,021 __main__ 78 [DEBUG][<module>] logloss:0.1728171670369602, auc:-0.4900606359658887, gini:0.01987872806822255 
+2019-09-03 13:15:55,618 __main__ 78 [DEBUG][<module>] logloss:0.17301714309062996, auc:-0.487717056575469, gini:0.024565886849062024 
+2019-09-03 13:16:00,227 __main__ 78 [DEBUG][<module>] logloss:0.1724969193508036, auc:-0.4945374614897031, gini:0.010925077020593754 
+2019-09-03 13:16:04,831 __main__ 78 [DEBUG][<module>] logloss:0.1729797546715297, auc:-0.4892364815309654, gini:0.021527036938069233 
+2019-09-03 13:16:09,431 __main__ 78 [DEBUG][<module>] logloss:0.17278526719670267, auc:-0.48998650299807905, gini:0.02002699400384189 
+2019-09-03 13:16:09,432 __main__ 94 [INFO][<module>] logloss:0.17281925026932524, auc:-0.4903076277120211, gini:0.01938474457595789 
+2019-09-03 13:16:09,432 __main__ 95 [INFO][<module>] current min score: -0.24112674937365225, params{'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:16:09,432 __main__ 58 [INFO][<module>] params:{'C': 10, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:16:29,624 __main__ 78 [DEBUG][<module>] logloss:0.1529029675040156, auc:-0.6252003714457631, gini:-0.25040074289152625 
+2019-09-03 13:16:42,985 __main__ 78 [DEBUG][<module>] logloss:0.15281781258318586, auc:-0.6273150642582236, gini:-0.2546301285164472 
+2019-09-03 13:17:09,689 __main__ 78 [DEBUG][<module>] logloss:0.15347304619317978, auc:-0.6161265336969939, gini:-0.23225306739398777 
+2019-09-03 13:17:29,911 __main__ 78 [DEBUG][<module>] logloss:0.15285358405329755, auc:-0.6274110382858228, gini:-0.2548220765716456 
+2019-09-03 13:17:33,646 __main__ 78 [DEBUG][<module>] logloss:0.15414179721391202, auc:-0.6039404140845124, gini:-0.20788082816902476 
+2019-09-03 13:17:33,646 __main__ 94 [INFO][<module>] logloss:0.1532378415095182, auc:-0.6199986843542632, gini:-0.2399973687085263 
+2019-09-03 13:17:33,647 __main__ 95 [INFO][<module>] current min score: -0.24112674937365225, params{'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:17:33,647 __main__ 58 [INFO][<module>] params:{'C': 10, 'fit_intercept': False, 'penalty': 'l2', 'random_state': 0} 
+2019-09-03 13:17:38,263 __main__ 78 [DEBUG][<module>] logloss:0.17283403197750916, auc:-0.49006108804485876, gini:0.019877823910282477 
+2019-09-03 13:17:42,758 __main__ 78 [DEBUG][<module>] logloss:0.1730340635549364, auc:-0.48771726352717526, gini:0.02456547294564948 
+2019-09-03 13:17:47,308 __main__ 78 [DEBUG][<module>] logloss:0.17251354507356811, auc:-0.49454029049943626, gini:0.010919419001127473 
+2019-09-03 13:17:51,821 __main__ 78 [DEBUG][<module>] logloss:0.17299669477228335, auc:-0.48923918197288974, gini:0.021521636054220528 
+2019-09-03 13:17:56,350 __main__ 78 [DEBUG][<module>] logloss:0.17280219723850285, auc:-0.4899861713941866, gini:0.020027657211626804 
+2019-09-03 13:17:56,351 __main__ 94 [INFO][<module>] logloss:0.17283610652335996, auc:-0.49030879908770925, gini:0.01938240182458135 
+2019-09-03 13:17:56,351 __main__ 95 [INFO][<module>] current min score: -0.24112674937365225, params{'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:17:56,351 __main__ 58 [INFO][<module>] params:{'C': 10, 'fit_intercept': False, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:17:59,566 __main__ 78 [DEBUG][<module>] logloss:0.15353898014240308, auc:-0.6116682393924753, gini:-0.22333647878495055 
+2019-09-03 13:18:17,308 __main__ 78 [DEBUG][<module>] logloss:0.15285353339292046, auc:-0.6266425495730108, gini:-0.2532850991460216 
+2019-09-03 13:18:35,379 __main__ 78 [DEBUG][<module>] logloss:0.15351084906011087, auc:-0.6155653851499043, gini:-0.23113077029980866 
+2019-09-03 13:18:38,490 __main__ 78 [DEBUG][<module>] logloss:0.15375858187092126, auc:-0.6096118006836687, gini:-0.21922360136733743 
+2019-09-03 13:18:41,529 __main__ 78 [DEBUG][<module>] logloss:0.15437228002899148, auc:-0.6000959754111815, gini:-0.20019195082236307 
+2019-09-03 13:18:41,530 __main__ 94 [INFO][<module>] logloss:0.15360684489906945, auc:-0.6127167900420482, gini:-0.22543358008409625 
+2019-09-03 13:18:41,530 __main__ 95 [INFO][<module>] current min score: -0.24112674937365225, params{'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:18:41,530 __main__ 98 [INFO][<module>] minimum gini:-0.24112674937365225 
+2019-09-03 13:18:41,530 __main__ 99 [INFO][<module>] minimum params: {'C': 1, 'fit_intercept': True, 'penalty': 'l1', 'random_state': 0} 
+2019-09-03 13:18:41,530 __main__ 101 [INFO][<module>] train end 
+2019-09-03 13:19:01,943 __main__ 109 [INFO][<module>] test data load end. (892816, 58) 
+2019-09-03 13:19:04,736 __main__ 116 [INFO][<module>] end 
+2019-09-03 13:29:01,190 __main__ 39 [INFO][<module>] start 
+2019-09-03 13:29:03,455 __main__ 46 [DEBUG][<module>] train columns: (58,) ['id' 'ps_ind_01' 'ps_ind_02_cat' 'ps_ind_03' 'ps_ind_04_cat'
+ 'ps_ind_05_cat' 'ps_ind_06_bin' 'ps_ind_07_bin' 'ps_ind_08_bin'
+ 'ps_ind_09_bin' 'ps_ind_10_bin' 'ps_ind_11_bin' 'ps_ind_12_bin'
+ 'ps_ind_13_bin' 'ps_ind_14' 'ps_ind_15' 'ps_ind_16_bin' 'ps_ind_17_bin'
+ 'ps_ind_18_bin' 'ps_reg_01' 'ps_reg_02' 'ps_reg_03' 'ps_car_01_cat'
+ 'ps_car_02_cat' 'ps_car_03_cat' 'ps_car_04_cat' 'ps_car_05_cat'
+ 'ps_car_06_cat' 'ps_car_07_cat' 'ps_car_08_cat' 'ps_car_09_cat'
+ 'ps_car_10_cat' 'ps_car_11_cat' 'ps_car_11' 'ps_car_12' 'ps_car_13'
+ 'ps_car_14' 'ps_car_15' 'ps_calc_01' 'ps_calc_02' 'ps_calc_03'
+ 'ps_calc_04' 'ps_calc_05' 'ps_calc_06' 'ps_calc_07' 'ps_calc_08'
+ 'ps_calc_09' 'ps_calc_10' 'ps_calc_11' 'ps_calc_12' 'ps_calc_13'
+ 'ps_calc_14' 'ps_calc_15_bin' 'ps_calc_16_bin' 'ps_calc_17_bin'
+ 'ps_calc_18_bin' 'ps_calc_19_bin' 'ps_calc_20_bin'] 
+2019-09-03 13:29:03,455 __main__ 48 [INFO][<module>] data preparation end (595212, 58) 
+2019-09-03 13:29:03,457 __main__ 61 [INFO][<module>] params:{'C': 0.1, 'fit_intercept': True, 'penalty': 'l2', 'random_state': 0} 
